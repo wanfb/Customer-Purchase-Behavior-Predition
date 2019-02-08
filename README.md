@@ -20,4 +20,7 @@ The raw data include three files
 
 ### Predoction Models
 We use the most frequently used two models LightGBM and XGboost as the prediction model.
-We build a two layers' model. The first layer uses XGBoost to predict whether a customer will buy the proucut or not. The second layer uses LightGBM to predict the amount of product being bought.
+We build a two layers' model. The first layer uses XGBoost to predict whether a customer will buy the proucut or not. 
+The second layer uses LightGBM to predict the amount of product being bought.
+<img src="https://github.com/wanfb/Customer-Purchase-Behavior-Predition/blob/master/model.JPG"/>
+

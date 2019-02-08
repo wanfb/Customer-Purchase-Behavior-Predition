@@ -22,5 +22,9 @@ The raw data include three files
 We use the most frequently used two models LightGBM and XGboost as the prediction model.
 We build a two layers' model. The first layer uses XGBoost to predict whether a customer will buy the proucut or not. 
 The second layer uses LightGBM to predict the amount of product being bought.
-<img src="https://github.com/wanfb/Customer-Purchase-Behavior-Predition/blob/master/model.JPG"/>
+<img src="https://github.com/wanfb/Customer-Purchase-Behavior-Predition/blob/master/model.JPG" width = "600" height = "300" align=center/>
+
+### Prediction Result
+we can acheive the accuracy of 76.4%. The feature importance of our model can be seen as follows.
+<img src="https://github.com/wanfb/Customer-Purchase-Behavior-Predition/blob/master/feature-importance.JPG" width = "600" height = "400" align=center/>
 
